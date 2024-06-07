@@ -1,1 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 
+*{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    margin-top: 3%;
+    direction: rtl;
+    background-color: rgb(221, 225, 255);
+}
+.buttons{
+    width: 100%;
+    margin-top: 1%;
+    gap: 100px;
+    color: black;
+}
+button{
+    width: 33%;
+    height: 5vh;
+    border: 1px black thin;
+    font-size: large;
+    font-weight:700;
+}
+
+.whatsapp{
+    background-color: 	#25D366;
+    color: black;
+}
+.course{
+    background-color: rgb(112, 241, 241);
+    color: black;
+}
+.videos{
+    background-color: rgb(214, 213, 213);
+}
