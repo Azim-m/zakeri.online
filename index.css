@@ -29,7 +29,7 @@ body{
 button{
     width: 33%;
     height: 5vh;
-    border: 0.5px black thin;
+    border: none;
     font-size: large;
     font-weight:700;
 }
