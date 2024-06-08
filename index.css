@@ -45,3 +45,8 @@ button{
 .videos{
     background-color: rgb(214, 213, 213);
 }
+@media (max-width: 1100px) {
+    body{
+        width: 95%;
+    }
+}
