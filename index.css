@@ -45,6 +45,9 @@ button{
 .videos{
     background-color: rgb(214, 213, 213);
 }
+.call{
+    background-color: rgb(151, 92, 151);
+}
 @media (max-width: 1100px) {
     body{
         width: 95%;
