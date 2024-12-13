@@ -1,47 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-.rubik {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+@font-face {
+	font-family: 'bnazanb';
+	src: local('bnazanb'), url('./bnazanb.woff') format('woff');
+}
+.Bnazanin {
+	font-family: 'bnazanb' !important;
+}
 
 *{
     text-decoration: none;
 }
-a{
-    color: black;
-}
 body{
+    background-color: #DFF2EB;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 50%;
-    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.startp{
+    height:max-content;
+    width: 300px;
+    padding: .8vh;
+    border: 1px #4A628A solid;
+    border-radius: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #4A628A;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+}
+.head1{
     direction: rtl;
-    background-color: rgb(221, 225, 255);
+    font-size: 2.8vh;
 }
-.buttons{
-    width: 100%;
-    margin-top: 1%;
-    gap: 100px;
-    color: black;
+.p1{
+    font-size: 2vh;
+    direction: rtl;
 }
-button{
-    width: 33%;
-    height: 5vh;
-    border: 0.5px black thin;
-    font-size: large;
-    font-weight:700;
+.head2{
+    direction: rtl;
+    font-size: 2.4vh;
 }
-
-.whatsapp{
-    background-color: 	#25D366;
-    color: black;
+.register{
+    direction: rtl;
+    background-color: #4A628A;
+    color: white;
+    border-radius: 3vh;
+    padding: 2vh;
+    width: 300px;
+    height: max-content;
 }
-.course{
-    background-color: rgb(112, 241, 241);
-    color: black;
-}
-.videos{
-    background-color: rgb(214, 213, 213);
+.register1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7AB2D3;
+    color: #4A628A;
+    border-radius: 3vh;
+    padding: .3vh;
+    margin-top: 1vh;
+    width: 350px;
+    height: max-content;
 }
